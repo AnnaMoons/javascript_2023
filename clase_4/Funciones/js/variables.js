@@ -1,5 +1,5 @@
-let miNombre = "codeRHouSe"
+let miNombre = "AnnaMoons";
 let usuarioLogueado;
-const IVA = 1.21 //Impuesto al valor agregado / TAX
-let respuesta = "no se encontraron datos."
-let username = "mobilepadawan"
+const IVA = 1.21; //Impuesto al valor agregado / TAX
+let respuesta = "No se encontraron datos.";
+let username = "AnnaMarieMoon";
