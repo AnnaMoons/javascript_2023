@@ -3,7 +3,7 @@ funciones - estructurar la lógica
 condicioneales(if - else - switch)
 utilizar un ciclo(for - while- dowhile)
 
-prompt - comnfirm - alert
+prompt - confirm - alert
 console log - warn - error
 
 Texto / String = listado de prendas
@@ -18,35 +18,37 @@ confirm? preguntamos ¿deseas conocer algún otro producto ?
 
 let continuar = true;
 const mensajeInicial =
-  "Ingresa el código de la prenda a consultar: \n" +
-  "a) Camiseta rosa \n" +
-  "b) Short playero \n" +
-  "c) Camiseta casual \n" +
-  "d) Pantalón de jean \n" +
-  "e) Camisa elegante \n";
+    "Ingresa el código del producto a consultar: \n" +
+    "a) Workbook: Crea contenido con Design Thinking \n" +
+    "b) Curso: Crea contenido con Design Thinking \n" +
+    "c) E-book: Princesas modernas con problemas reales \n" +
+    "d) E-book: Girl boss con IE \n" +
+    "e) Curso: Crea contenido con Inteligencia Artificial \n";
 
 function iniciarConsulta() {
-  let resultado = prompt(mensajeInicial).toLowerCase().trim();
-  console.log(resultado);
-  return;
-  if (
-    resultado !== "a" &&
-    resultado !== "b" &&
-    resultado !== "c" &&
-    resultado !== "d" &&
-    resultado !== "e"
-  ) {
-    alert("⛔️ Ingresa un código válido");
-  } else {
-  case "a":
-      break
-    case "b":
-      break
+    let resultado = prompt(mensajeInicial).toLowerCase().trim();
+    console.log(resultado);
+    return;
+    if (
+        resultado !== "a" &&
+        alert("💲Este producto cuesta $ 15 USD )
+        resultado !== "b" &&
+        resultado !== "c" &&
+        resultado !== "d" &&
+        resultado !== "e"
+    ) {
+        alert("⛔️ Ingresa un código válido");
+    } else {
         case "a":
-            break
-            case "a":
-                break
-                case "a":
-      default:
-  }
+        break
+        case "b":
+        break
+        case "c":
+        break
+        case "d":
+        break
+        case "e":
+        default:
+        console.error("No entendí la consulta.")
+    }
 }
